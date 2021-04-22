@@ -1,0 +1,56 @@
+.activeNav {
+  display: block !important;
+  margin-top: 56px;
+}
+
+.Polaris-TopBar {
+  background-color: #5074d0 !important;
+  justify-content: space-between !important;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.Polaris-TopBar__Contents {
+  justify-content: space-between;
+  grid-column: span 2;
+}
+
+
+
+.Polaris-TopBar__SearchField {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /*color: #393f4f !important;*/
+  color: #F0FFFF !important;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  height: auto;
+  font-family: "Sarabun", sans-serif;
+  text-decoration: none;
+}
+
+.logo > svg {
+  margin-bottom: 1px;
+}
+
+.Polaris-TopBar__NavigationIcon{
+  background-color: transparent !important;
+  }
+
+.Polaris-TopBar-Menu__Activator:hover{
+  background-color: #5074d0;
+}
+
+@media screen and (min-width: 769px){
+  .Polaris-TopBar{
+    grid-template-columns: auto auto;
+  }
+}
