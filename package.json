@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "start:prod": "next start -p 80"
+    "start": "next start -p 8000",
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",

@@ -1,4 +1,5 @@
 const { parsed: localEnv } = require("dotenv").config();
+module.exports = { distDir: "build" };
 // const withCSS = require("@zeit/next-css");
 
 // const webpack = require("webpack");
